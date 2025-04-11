@@ -12,6 +12,8 @@ html, body {
 body {
     background-color: #000;
     background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-position: top center;
 }
 
     main {
@@ -31,4 +33,14 @@ body {
         display: flex;
         justify-content: center;
 
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+    }
+    
+    iframe#tela {
+        position: relative;
+        top: 80px;
+        left: -3px;
+        width: 84%;
+        height: 473px;
+    }
+
