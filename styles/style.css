@@ -44,3 +44,23 @@ body {
         height: 473px;
     }
 
+    section#social-media {
+        text-align: right;
+    }
+
+section#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
+}
+
+section#social-media img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.692);
+}
+
+section#social-media img:active {
+    transform: scale(95%);
+}
